@@ -11,3 +11,8 @@ jobs:
       - uses: docker://python:latest
         name: Say hello
         run: lscpu
+  A:
+    steps:
+      - uses: docker://python:latest
+        name: Run
+        run: lscpu
